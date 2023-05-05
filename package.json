@@ -1,0 +1,27 @@
+{
+  "name": "pate_pooja",
+  "version": "1.0.0",
+  "description": "Pet_Pooja_food_ordering_app",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/j24m/Pate_Pooja_food_ordering_app.git)"
+  },
+  "author": "Jyotsna Mehta",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
