@@ -1,0 +1,25 @@
+.landing-page-body {
+  margin-top: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.flex-between-illustration-Info {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 30rem;
+}
+
+.flex-between-illustration-Info img {
+  width: 40rem;
+}
+
+.flex-reverse {
+  flex-flow: row-reverse;
+}
+
+.middle-section {
+  background-color: rgb(245, 232, 232);
+}

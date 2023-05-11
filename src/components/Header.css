@@ -1,0 +1,64 @@
+.food-app-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  box-shadow: 0px 3px 8px var(--gray-shade-color);
+}
+
+.food-app-nav-logo a {
+  margin-left: 2rem;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #b6a5de;
+  text-shadow: 1px 1px 2px #6835df;
+}
+
+.food-app-navbar-container .food-app-nav-items {
+  margin-right: 2rem;
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-around;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.food-app-nav-items li {
+  padding: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.food-app-nav-items > li > a {
+  color: var(--primary-color);
+}
+
+.food-app-nav-items > li > a:hover {
+  color: #b6a5de;
+}
+
+.food-app-nav-items .position-relative {
+  position: relative;
+}
+
+.food-app-nav-items input {
+  font-size: 1.58rem;
+  color: gray;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #b2aaaa;
+}
+
+.food-app-nav-items input:focus {
+  outline: none;
+  background-color: #e9f1fa;
+}
+
+.food-app-nav-items .search-icon {
+  position: absolute;
+  right: 14.5px;
+  bottom: 15px;
+}
